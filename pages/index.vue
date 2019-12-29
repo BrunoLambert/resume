@@ -161,7 +161,8 @@ export default {
       'Rest API',
       'MySQL',
       'PostgreSQL',
-      'Material Design'
+      'Material Design',
+      'Git'
     ],
     knowledges: [
       'Desenvolvimento Frontend',
