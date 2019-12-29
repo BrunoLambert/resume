@@ -35,7 +35,7 @@
       </div>
       <div class="mt-5">
         <h2>Outras habilidades</h2>
-        <v-layout row wrap mx-3>
+        <v-layout row wrap mx-1>
           <v-flex v-for="skill in skills.slice(6)" :key="skill" class="mb-1 mr-2">
             {{ skill }}
           </v-flex>
@@ -44,7 +44,7 @@
       <div class="mt-5">
         <h2>Projetos</h2>
         <a v-for="(project, index) in projects" :key="index" :href="project.link" target="_blank">
-          <v-layout row wrap class="mx-3 my-4 project-layout">
+          <v-layout row wrap class="mx-1 my-4 project-layout">
             <v-flex xs12>
               <h4>{{ project.name }}</h4>
             </v-flex>
@@ -66,7 +66,7 @@
         Desenvolvedor em crescimento, almejando cada vez mais o sucesso e se especializando em tecnologias de frontend.
       </p>
       <div class="mt-5">
-        <h2>Experiencias Profissionais</h2>
+        <h2>Experiências Profissionais</h2>
         <v-layout v-for="(experience, index) in experiencies" :key="index" row wrap class="mx-2 mb-10 mt-4">
           <v-flex xs12>
             <h4> {{ experience.role }}</h4>
@@ -297,7 +297,7 @@ export default {
         location: 'Santa Rita do Sapucaí - MG'
       },
       {
-        school: 'ETE - Escolá Técnica de Eletrônica "Fransico Moreira da Costa"',
+        school: 'ETE - Escola Técnica de Eletrônica "Francisco Moreira da Costa"',
         degree: 'Técnico de Eletrônica e Telecomunicações',
         startedAt: 'Janeiro 2010',
         finishedAt: 'Dezembro 2012',
