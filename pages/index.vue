@@ -1,8 +1,12 @@
 <template>
   <v-layout row wrap>
     <v-flex xs12 md4 xl3 pa-3 class="side-col">
-      <h1 class="hidden-md-and-up">Bruno Fonseca Lambert</h1>
-      <p class="hidden-md-and-up mb-5">Desenvolvedor em crescimento, almejando cada vez mais o sucesso e se especializando em tecnologias de frontend.</p>
+      <h1 class="hidden-md-and-up">
+        Bruno Fonseca Lambert
+      </h1>
+      <p class="hidden-md-and-up mb-5">
+        Desenvolvedor em crescimento, almejando cada vez mais o sucesso e se especializando em tecnologias de frontend.
+      </p>
       <v-img src="/profile.jpg" class="profile-photo" />
       <div class="mt-5">
         <h2>Contato</h2>
@@ -11,7 +15,7 @@
       </div>
       <div class="mt-5">
         <h2>Principais habilidades</h2>
-        <v-layout row wrap mx-3>
+        <v-layout row wrap mx-1>
           <v-flex v-for="skill in skills.slice(0,6)" :key="skill" xs6 md4 mb-1>
             {{ skill }}
           </v-flex>
@@ -55,8 +59,12 @@
       </div>
     </v-flex>
     <v-flex xs12 md8 xl9 pa-3 class="dark--text main-col">
-      <h1 class="hidden-sm-and-down">Bruno Fonseca Lambert</h1>
-      <p class="hidden-sm-and-down">Desenvolvedor em crescimento, almejando cada vez mais o sucesso e se especializando em tecnologias de frontend.</p>
+      <h1 class="hidden-sm-and-down">
+        Bruno Fonseca Lambert
+      </h1>
+      <p class="hidden-sm-and-down">
+        Desenvolvedor em crescimento, almejando cada vez mais o sucesso e se especializando em tecnologias de frontend.
+      </p>
       <div class="mt-5">
         <h2>Experiencias Profissionais</h2>
         <v-layout v-for="(experience, index) in experiencies" :key="index" row wrap class="mx-2 mb-10 mt-4">
@@ -95,16 +103,22 @@
       <div class="mt-5">
         <h2>Perfis</h2>
         <v-layout row wrap mx-3 mt-4>
-          <v-flex xs12 mb-5 v-for="link in links" :key="link.title" class="text-center text-md-left">
-            <v-icon class="mr-3" :class="link.iconClass">{{ link.icon }}</v-icon>
+          <v-flex v-for="link in links" :key="link.title" xs12 mb-5 class="text-center text-md-left">
+            <v-icon :class="link.iconClass" class="mr-3">
+              {{ link.icon }}
+            </v-icon>
             <b>{{ link.title }}: <a :href="link.url" target="_blank">{{ link.url }}</a></b>
           </v-flex>
           <v-flex xs12 mb-5 class="text-center text-md-left">
-            <v-icon class="mr-3 whatsapp-icon">fab fa-whatsapp-square</v-icon>
+            <v-icon class="mr-3 whatsapp-icon">
+              fab fa-whatsapp-square
+            </v-icon>
             <b>Whatsapp: <a href="https://api.whatsapp.com/send?phone=5535987130622" target="_blank">+55 35 98713-0622</a></b>
           </v-flex>
           <v-flex xs12 mb-5 class="text-center text-md-left">
-            <v-icon class="mr-3 skype-icon">fab fa-skype</v-icon>
+            <v-icon class="mr-3 skype-icon">
+              fab fa-skype
+            </v-icon>
             <b>Skype: brunoflambert</b>
           </v-flex>
         </v-layout>
@@ -113,10 +127,10 @@
         <h2>Curiosidades</h2>
         <v-layout row wrap mx-3 mt-4>
           <v-flex xs12>
-        <p>Interesse em morar em São Paulo, Porto Alegre, Florianópolis</p>
+            <p>Interesse em morar em São Paulo, Porto Alegre, Florianópolis</p>
           </v-flex>
           <v-flex xs12>
-        <p>Interesse em aperfeiçoar idomas (Inglês e Espanhol)</p>
+            <p>Interesse em aperfeiçoar idomas (Inglês e Espanhol)</p>
           </v-flex>
         </v-layout>
       </div>
