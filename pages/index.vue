@@ -235,10 +235,18 @@ export default {
     experiencies: [
       {
         role: 'Desenvolvedor Frontend Web',
+        company: 'Optimum Soluções',
+        description: 'Desenvolvimento frontend usando VueJS integrado com APIs, tento como principal atividade o desenvolvimento de dashboard.',
+        startedAt: 'Fevereiro 2020',
+        leftAt: 'Atualmente',
+        location: 'São Paulo - SP'
+      },
+      {
+        role: 'Desenvolvedor Frontend Web',
         company: 'Beeleads',
         description: 'Desenvolvimento frontend usando ReactJS, NextJS and Reac Native. Principal desenvolvimento: https://www.bigtester.com.br/',
         startedAt: 'Agosto 2019',
-        leftAt: 'Atualmente',
+        leftAt: 'Janeiro 2020',
         location: 'Itajubá - MG'
       },
       {
