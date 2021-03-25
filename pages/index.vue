@@ -11,7 +11,7 @@
       <div class="mt-5">
         <h2>Contato</h2>
         <p>E-mail: brunofsclambert@gmail.com</p>
-        <p>Telefone: (35) 98713-0622</p>
+        <p>Telefone: (11) 94856-0966</p>
       </div>
       <div class="mt-5">
         <h2>Principais habilidades</h2>
@@ -113,7 +113,7 @@
             <v-icon class="mr-3 whatsapp-icon">
               fab fa-whatsapp-square
             </v-icon>
-            <b>Whatsapp: <a href="https://api.whatsapp.com/send?phone=5535987130622" target="_blank">+55 35 98713-0622</a></b>
+            <b>Whatsapp: <a href="https://api.whatsapp.com/send?phone=5511948560966" target="_blank">+55 35 98713-0622</a></b>
           </v-flex>
           <v-flex xs12 mb-5 class="text-center text-md-left">
             <v-icon class="mr-3 skype-icon">
@@ -175,6 +175,20 @@ export default {
       'Metodologias Ágeis (SCRUM, KANBAN)'
     ],
     projects: [
+      {
+        name: 'Optclips',
+        description: 'Sistema de gestão para advogados (B2C), mapeando os clips de acordo com o perfil em diários por todo o Brasil.',
+        period: 'Agosoto 2020 ~ Atualmente',
+        link: 'https://optclips.com.br/',
+        company: 'Optimum Soluções'
+      },
+      {
+        name: 'Plataforma Optimum',
+        description: 'Projeto de análises relacionados a processos jurídicos (B2B).',
+        period: 'Fevereiro 2020 ~ Atualmente',
+        link: 'https://www.optimumsolucoes.com/',
+        company: 'Optimum Soluções'
+      },
       {
         name: 'Code Adventure',
         description: 'Projeto iniciado na Rocketseat Experience 2019 com objetivo de atrair novos aspirantes da computação.',
@@ -295,7 +309,7 @@ export default {
         school: 'UNIFEI - Universidade Federal de Itajubá',
         degree: 'Bacharel - Sistema de Informações',
         startedAt: 'Janeiro 2016',
-        finishedAt: 'Julho 2020',
+        finishedAt: '2021',
         location: 'Itajubá - MG'
       },
       {
