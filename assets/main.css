@@ -6,6 +6,9 @@ p {
   margin-bottom: 4px !important;
 }
 a {
+  color: rgba(0, 0, 100, 0.7) !important;
+}
+a.no-underline {
   text-decoration: none !important;
   color: inherit !important;
 }

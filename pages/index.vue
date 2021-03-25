@@ -43,7 +43,7 @@
       </div>
       <div class="mt-5">
         <h2>Projetos</h2>
-        <a v-for="(project, index) in projects" :key="index" :href="project.link" target="_blank">
+        <a v-for="(project, index) in projects" :key="index" :href="project.link" target="_blank" class="no-underline">
           <v-layout row wrap class="mx-1 my-4 project-layout">
             <v-flex xs12>
               <h4>{{ project.name }}</h4>
@@ -131,6 +131,9 @@
           </v-flex>
           <v-flex xs12>
             <p>Interesse em aperfeiçoar idomas (Inglês e Espanhol)</p>
+          </v-flex>
+          <v-flex xs12>
+            <p>Streamer nas horas vagas (<a href="https://www.twitch.tv/boruntw" target="_blank">Twitch</a> / <a href="https://www.youtube.com/channel/UCzhSb2qjPx3GPxnKzs0s02A" target="_blank">YouTube</a> - Boruntw)</p>
           </v-flex>
         </v-layout>
       </div>
@@ -250,7 +253,7 @@ export default {
       {
         role: 'Desenvolvedor Frontend Web',
         company: 'Optimum Soluções',
-        description: 'Desenvolvimento frontend usando VueJS integrado com APIs, tento como principal atividade o desenvolvimento de dashboard.',
+        description: 'Desenvolvimento frontend usando Vue/NuxtJs integrado com APIs, desenvolvimento sistemas de anaálises de processos jurídicos (Plataforma Optimum - B2B) e captando informações sobre as atividades de advogados cadastrados (OptClips - B2C) .',
         startedAt: 'Fevereiro 2020',
         leftAt: 'Atualmente',
         location: 'São Paulo - SP'
