@@ -113,7 +113,7 @@
             <v-icon class="mr-3 whatsapp-icon">
               fab fa-whatsapp-square
             </v-icon>
-            <b>Whatsapp: <a href="https://api.whatsapp.com/send?phone=5511948560966" target="_blank">+55 35 98713-0622</a></b>
+            <b>Whatsapp: <a href="https://api.whatsapp.com/send?phone=5511948560966" target="_blank">+55 11 94856-0966</a></b>
           </v-flex>
           <v-flex xs12 mb-5 class="text-center text-md-left">
             <v-icon class="mr-3 skype-icon">
